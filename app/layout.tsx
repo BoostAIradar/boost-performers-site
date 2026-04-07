@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next"
 import { Overpass } from "next/font/google"
+import { Analytics } from "@vercel/analytics/react"
 import "./globals.css"
 
 const overpassFont = Overpass({
@@ -44,6 +45,7 @@ export default function RootLayout({
     <html lang="en" className={overpassFont.variable}>
       <body className="font-sans antialiased">
         {children}
+        <Analytics />
       </body>
     </html>
   )
