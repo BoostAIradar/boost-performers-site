@@ -8,27 +8,27 @@ import Link from "next/link"
 const agentBuckets = [
   {
     bucket: "Intake & Deadlines",
-    tagline: "LEX reads your documents and extracts what matters.",
+    tagline: "LegalEdge reads your documents and extracts what matters.",
     agents: [
-      { name: "LEX PDF Intelligence", headline: "13 CMO deadlines in 8 seconds.", desc: "Upload a CMO. LEX extracts every deadline, maps them to the timeline, flags critical windows under Florida statute. You confirm. Alerts cascade.", stat: "30–45 min → 8 seconds" },
-      { name: "LEX Batch ATP", headline: "Full day to 20 minutes.", desc: "LEX reads every ATP file at once. Extracts key data, generates 5 action items per matter, logs everything. Your paralegal reviews summaries — not raw files.", stat: "Full day → 20 minutes" },
-      { name: "LEX Morning Briefing", headline: "Your day prepared before you arrive.", desc: "Every morning at 8am, LEX reads all active matters and scores every deadline. Critical, Active, Queue — organized before you sit down.", stat: "1 hour → 5 minutes" },
+      { name: "LegalEdge PDF Intelligence", headline: "13 CMO deadlines in 8 seconds.", desc: "Upload a CMO. LegalEdge extracts every deadline, maps them to the timeline, flags critical windows under Florida statute. You confirm. Alerts cascade.", stat: "30–45 min → 8 seconds" },
+      { name: "LegalEdge Batch ATP", headline: "Full day to 20 minutes.", desc: "LegalEdge reads every ATP file at once. Extracts key data, generates 5 action items per matter, logs everything. Your paralegal reviews summaries — not raw files.", stat: "Full day → 20 minutes" },
+      { name: "LegalEdge Morning Briefing", headline: "Your day prepared before you arrive.", desc: "Every morning at 8am, LegalEdge reads all active matters and scores every deadline. Critical, Active, Queue — organized before you sit down.", stat: "1 hour → 5 minutes" },
     ],
   },
   {
     bucket: "Work Execution",
-    tagline: "LEX prepares the work. You approve it.",
+    tagline: "LegalEdge prepares the work. You approve it.",
     agents: [
-      { name: "LEX Document Engine", headline: "§720.3085 cited correctly. Every time.", desc: "LEX picks the right statute by entity type. Calculates per diem under §55.03. Pre-fills parties. Drafts the full demand letter. You review and send.", stat: "Scratch → 90-second draft" },
-      { name: "LEX Firm Memory", headline: "After 30 days, LEX drafts like you.", desc: "Every edit you make, LEX learns from. After 30 days it knows your voice. After 90 — you approve without editing.", stat: "Day 30: your voice. Day 90: approve as-is." },
+      { name: "LegalEdge Document Engine", headline: "§720.3085 cited correctly. Every time.", desc: "LegalEdge picks the right statute by entity type. Calculates per diem under §55.03. Pre-fills parties. Drafts the full demand letter. You review and send.", stat: "Scratch → 90-second draft" },
+      { name: "LegalEdge Firm Memory", headline: "After 30 days, LegalEdge drafts like you.", desc: "Every edit you make, LegalEdge learns from. After 30 days it knows your voice. After 90 — you approve without editing.", stat: "Day 30: your voice. Day 90: approve as-is." },
     ],
   },
   {
     bucket: "Intelligence Layer",
-    tagline: "Ask anything about any matter. LEX already knows.",
+    tagline: "Ask anything about any matter. LegalEdge already knows.",
     featured: true,
     agents: [
-      { name: "LEX Matter Intelligence", headline: "Full case context. Instant answer.", desc: "Every party, deadline, document, and Florida statute for that matter — already loaded. Ask in plain language. Get a complete answer.", stat: "Instant answer · full case context", featured: true },
+      { name: "LegalEdge Matter Intelligence", headline: "Full case context. Instant answer.", desc: "Every party, deadline, document, and Florida statute for that matter — already loaded. Ask in plain language. Get a complete answer.", stat: "Instant answer · full case context", featured: true },
     ],
   },
 ]
@@ -73,15 +73,15 @@ const fixes = [
   "CMO deadlines: Manual entry → 8 seconds",
   "Morning triage: 1 hour → 5 minutes",
   "HOA status report: 3 hours → 12 minutes",
-  "Demand letters: Scratch → LEX drafts, you approve",
+  "Demand letters: Scratch → LegalEdge drafts, you approve",
 ]
 
 const faqs = [
-  { q: "Is this a Clio replacement?", a: "No. Clio is your filing cabinet. LEX is your brain. LEX works alongside Clio — it reads your matters, prepares work, and feeds Clio automatically when actions are confirmed." },
-  { q: "What if LEX gets something wrong?", a: "Nothing sends, files, or logs without your approval. Human always in the loop — built into the architecture, not a setting you can turn off. LEX prepares. You make the call." },
-  { q: "Does LEX know Florida HOA foreclosure law?", a: "Yes. LEX knows what an ATP is, what a CMO is, what a DLE is. It knows the 46-day Florida lien window. It knows §720.3085 for HOA and §718.116 for condo. Built from how HOA foreclosure actually works in Florida." },
-  { q: "How long does it take to set up?", a: "Most firms are live within 48 hours of the audit call. We connect LEX to your existing Clio environment, map your most common matter type, and run the first batch together." },
-  { q: "What is the trial?", a: "30 days. Your real matters. Your real data. LEX running on your actual practice. You only decide after you've seen LEX working in your firm." },
+  { q: "Is this a Clio replacement?", a: "No. Clio is your filing cabinet. LegalEdge is your brain. LegalEdge works alongside Clio — it reads your matters, prepares work, and feeds Clio automatically when actions are confirmed." },
+  { q: "What if LegalEdge gets something wrong?", a: "Nothing sends, files, or logs without your approval. Human always in the loop — built into the architecture, not a setting you can turn off. LegalEdge prepares. You make the call." },
+  { q: "Does LegalEdge know Florida HOA foreclosure law?", a: "Yes. LegalEdge knows what an ATP is, what a CMO is, what a DLE is. It knows the 46-day Florida lien window. It knows §720.3085 for HOA and §718.116 for condo. Built from how HOA foreclosure actually works in Florida." },
+  { q: "How long does it take to set up?", a: "Most firms are live within 48 hours of the audit call. We connect LegalEdge to your existing Clio environment, map your most common matter type, and run the first batch together." },
+  { q: "What is the trial?", a: "30 days. Your real matters. Your real data. LegalEdge running on your actual practice. You only decide after you've seen LegalEdge working in your firm." },
 ]
 
 /* ── Intersection Observer Hook ── */
@@ -159,7 +159,7 @@ export function LegalEdgeHeroSection() {
 
           <h1 className="font-serif text-[28px] md:text-[38px] lg:text-[46px] font-extrabold leading-[1.1] tracking-tight text-white mb-6">
             Every matter.<br />
-            <span className="text-primary">LEX reads, drafts, flags, and organizes.</span><br />
+            <span className="text-primary">LegalEdge reads, drafts, flags, and organizes.</span><br />
             You make decisions and practice law.
           </h1>
 
@@ -236,7 +236,7 @@ export function LegalEdgeHeroSection() {
           </div>
 
           <div className="border-t border-white/8 px-5 py-3.5 flex justify-between text-[11px]">
-            <span className="text-white/35">LEX prepares. You approve. Then sends.</span>
+            <span className="text-white/35">LegalEdge prepares. You approve. Then sends.</span>
             <span className="text-primary font-bold">40 hrs saved</span>
           </div>
         </div>
@@ -348,7 +348,7 @@ export function ProblemSolutionSection() {
           <div>
             <span className="font-mono text-[11px] font-bold tracking-[2.5px] text-green-500 uppercase block mb-4">What Changes on Day 1</span>
             <h2 className="font-serif text-[32px] lg:text-[40px] font-extrabold text-white leading-tight tracking-tight mb-5">
-              LEX fixes every one of them.
+              LegalEdge fixes every one of them.
             </h2>
             <p className="text-[16px] text-white/60 leading-relaxed max-w-[540px] mb-8">
               Built from the ground up around how HOA foreclosure actually works. Not a generic AI with a legal skin.
@@ -370,7 +370,7 @@ export function ProblemSolutionSection() {
   )
 }
 
-/* ── LEX System Section ── */
+/* ── LegalEdge System Section ── */
 export function LexSystemSection() {
   return (
     <section className="py-24 lg:py-28" id="system" style={{ background: "linear-gradient(180deg, #FFFFFF 0%, #F5F6F8 100%)" }}>
@@ -378,7 +378,7 @@ export function LexSystemSection() {
         <div className="text-center mb-14">
           <span className="font-mono text-[11px] font-bold tracking-[2.5px] text-primary uppercase block mb-4">The System</span>
           <h2 className="font-serif text-[32px] lg:text-[40px] font-extrabold text-[#0B1A2B] leading-tight tracking-tight mb-5">
-            Meet LEX.
+            Meet LegalEdge.
           </h2>
           <p className="text-[16px] text-[#0B1A2B]/60 leading-relaxed max-w-[560px] mx-auto">
             Three layers working together. Not a collection of features — a system that compounds over time.
@@ -425,16 +425,16 @@ export function LexSystemSection() {
         {/* Architecture Bar */}
         <div className="bg-white border border-[#0B1A2B]/8 rounded-xl p-7 grid grid-cols-1 md:grid-cols-3 gap-6 mt-7">
           <div>
-            <h4 className="text-[14px] font-bold text-[#0B1A2B] mb-1.5">LEX Clio Sync</h4>
+            <h4 className="text-[14px] font-bold text-[#0B1A2B] mb-1.5">LegalEdge Clio Sync</h4>
             <p className="text-[13px] text-[#0B1A2B]/60 leading-relaxed">Confirmed actions update Clio automatically. Your filing cabinet stays current without manual input.</p>
           </div>
           <div>
             <h4 className="text-[14px] font-bold text-[#0B1A2B] mb-1.5">Human Always in the Loop</h4>
-            <p className="text-[13px] text-[#0B1A2B]/60 leading-relaxed">Nothing sends. Nothing files. Nothing logs without you. LEX prepares. You approve. Non-negotiable.</p>
+            <p className="text-[13px] text-[#0B1A2B]/60 leading-relaxed">Nothing sends. Nothing files. Nothing logs without you. LegalEdge prepares. You approve. Non-negotiable.</p>
           </div>
           <div>
-            <h4 className="text-[14px] font-bold text-[#0B1A2B] mb-1.5">Clio is Your Cabinet. LEX is Your Brain.</h4>
-            <p className="text-[13px] text-[#0B1A2B]/60 leading-relaxed">LEX works alongside Clio — not instead of it. Clio stores. LEX thinks. Together they run your firm.</p>
+            <h4 className="text-[14px] font-bold text-[#0B1A2B] mb-1.5">Clio is Your Cabinet. LegalEdge is Your Brain.</h4>
+            <p className="text-[13px] text-[#0B1A2B]/60 leading-relaxed">LegalEdge works alongside Clio — not instead of it. Clio stores. LegalEdge thinks. Together they run your firm.</p>
           </div>
         </div>
 
@@ -466,13 +466,13 @@ export function MatterIntelligenceSection() {
           <div>
             <span className="font-mono text-[11px] font-bold tracking-[2.5px] text-primary uppercase block mb-4">Flagship Agent</span>
             <h2 className="font-serif text-[32px] lg:text-[40px] font-extrabold text-white leading-tight tracking-tight mb-5">
-              LEX Matter Intelligence.
+              LegalEdge Matter Intelligence.
             </h2>
             <p className="text-[16px] text-white/60 leading-relaxed max-w-[540px] mb-7">
               Ask anything about any active matter — deadlines, documents, parties, history, applicable Florida statute — and get an answer that knows the full case.
             </p>
             <blockquote className="border-l-[3px] border-primary pl-5 text-[16px] text-white/80 italic leading-relaxed">
-              "Ask LEX anything about any matter.<br />It already knows the answer."
+              "Ask LegalEdge anything about any matter.<br />It already knows the answer."
             </blockquote>
           </div>
 
@@ -544,7 +544,7 @@ export function RiskSection() {
         </ul>
 
         <p className="text-[15px] text-[#0B1A2B]/40 italic border-t border-[#0B1A2B]/8 pt-5">
-          LEX doesn't replace your judgment. It makes sure nothing reaches your desk too late to act on.
+          LegalEdge doesn't replace your judgment. It makes sure nothing reaches your desk too late to act on.
         </p>
 
         <div className="mt-8">
@@ -600,11 +600,11 @@ export function LegalEdgeGuySection() {
             </div>
 
             <blockquote className="border-l-[3px] border-primary pl-5 text-[17px] text-[#0B1A2B] italic leading-relaxed mb-7">
-              "I spent months in the trenches with a real Florida real estate attorney — mapping every step, every pain point, every place where deadlines had no safety net. LEX was built from that work."
+              "I spent months in the trenches with a real Florida real estate attorney — mapping every step, every pain point, every place where deadlines had no safety net. LegalEdge was built from that work."
             </blockquote>
 
             <p className="text-[15px] text-[#0B1A2B]/60 leading-relaxed mb-8">
-              After getting certified in Agentic AI at Johns Hopkins, Guy built LegalEdge and LEX — live today with a Miami real estate law firm. 40 hours of paralegal time recovered in month one. He personally delivers every AI Audit.
+              After getting certified in Agentic AI at Johns Hopkins, Guy built LegalEdge — live today with a Miami real estate law firm. 40 hours of paralegal time recovered in month one. He personally delivers every AI Audit.
             </p>
 
           <Link

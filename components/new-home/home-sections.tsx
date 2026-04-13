@@ -94,11 +94,11 @@ export function NewHeroSection() {
 /* ── Products Section ── */
 export function ProductsSection() {
   const features = [
-    "LEX Morning Briefing — your day prepared before you arrive",
-    "LEX PDF Intelligence — 13 CMO deadlines in 8 seconds",
-    "LEX Batch ATP — full day to 20 minutes",
-    "LEX Document Engine — §720.3085 cited correctly, every time",
-    "LEX Matter Intelligence — ask anything about any matter",
+    "LegalEdge Morning Briefing — your day prepared before you arrive",
+    "LegalEdge PDF Intelligence — 13 CMO deadlines in 8 seconds",
+    "LegalEdge Batch ATP — full day to 20 minutes",
+    "LegalEdge Document Engine — §720.3085 cited correctly, every time",
+    "LegalEdge Matter Intelligence — ask anything about any matter",
   ]
 
   return (
@@ -162,7 +162,7 @@ export function AuditSection() {
     "Walk through your HOA foreclosure, eviction, or closing workflow — step by step",
     "Map every friction point, deadline risk, and billing gap in your practice",
     "Put dollar amounts to the leaks — your numbers, not industry averages",
-    "Demo LEX live on your specific workflow — not a canned presentation",
+    "Demo LegalEdge live on your specific workflow — not a canned presentation",
     "Leave with a clear next step — written report delivered within 48 hours",
   ]
 
@@ -255,8 +255,8 @@ export function AuditSection() {
 /* ── How We Work Section ── */
 export function HowWeWorkSection() {
   const steps = [
-    { n: "01", t: "AI Capacity Audit", d: "90–120 minute working session. We map your workflow, find every leak, and demo LEX live." },
-    { n: "02", t: "LegalEdge", d: "If it's a fit — LEX deploys on your real matters, your real data." },
+    { n: "01", t: "AI Capacity Audit", d: "90–120 minute working session. We map your workflow, find every leak, and demo LegalEdge live." },
+    { n: "02", t: "LegalEdge", d: "If it's a fit — LegalEdge deploys on your real matters, your real data." },
     { n: "03", t: "30-Day Trial", d: "Your real matters. Your real data. No credit card." },
   ]
 
