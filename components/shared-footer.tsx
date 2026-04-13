@@ -28,7 +28,7 @@ export function SharedFooter() {
               />
             </Link>
             <p className="text-[13px] text-white/40 leading-relaxed mt-3 max-w-[260px]">
-              Eliminate the Busywork, Increase Online Presence. Boost Revenue & Margin.
+              AI-powered operating systems for law firms.
             </p>
           </div>
 
