@@ -164,7 +164,7 @@ export function LegalEdgeHeroSection() {
           </h1>
 
           <p className="text-[17px] text-white/60 leading-relaxed max-w-[500px] mb-10">
-            Florida real estate lawyers lose $18K–$36K/year in missed billing, manual work, and untracked deadlines. LEX runs your workflow so nothing slips, nothing is missed, and nothing is left unbilled.
+            LegalEdge is the AI operating system for Florida real estate litigation firms. Powered by LEX — the intelligence layer that runs your workflow so nothing slips, nothing is missed, and nothing is left unbilled.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-3">
@@ -604,7 +604,7 @@ export function LegalEdgeGuySection() {
             </blockquote>
 
             <p className="text-[15px] text-[#0B1A2B]/60 leading-relaxed mb-8">
-              After getting certified in Agentic AI at Johns Hopkins, Guy built LegalEdge and LEX — live today with a Miami real estate law firm. 40 hours of paralegal time recovered in month one. He personally delivers every free AI Audit.
+              After getting certified in Agentic AI at Johns Hopkins, Guy built LegalEdge and LEX — live today with a Miami real estate law firm. 40 hours of paralegal time recovered in month one. He personally delivers every AI Audit.
             </p>
 
           <Link
@@ -663,9 +663,9 @@ export function LegalEdgeFaqSection() {
 /* ── Start Free Section ── */
 export function StartFreeSection() {
   const steps = [
-    { num: "01", title: "Free Audit", desc: "90–120 min · your numbers" },
+    { num: "01", title: "AI Capacity Audit", desc: "90 min · your numbers · $497 or $0" },
     { num: "02", title: "Written Report", desc: "Delivered in 48hrs" },
-    { num: "03", title: "Free 30-Day Trial", desc: "No credit card" },
+    { num: "03", title: "30-Day Trial", desc: "Your real matters · no credit card" },
   ]
 
   return (
@@ -676,7 +676,7 @@ export function StartFreeSection() {
           <span className="text-primary">Nothing left to memory.</span>
         </h2>
         <p className="text-[17px] text-white/60 leading-relaxed mb-11">
-          Start with a free audit. See your numbers. Try LEX on your real matters. Pay only after it's working.
+          Start with an AI Capacity Audit. $497 if we find $10K+/month. $0 if we don't.
         </p>
 
         <div className="flex flex-col sm:flex-row justify-center gap-12 mb-11">
