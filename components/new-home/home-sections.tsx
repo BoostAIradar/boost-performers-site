@@ -184,7 +184,7 @@ export function AuditSection() {
       <FadeUp className="max-w-[1120px] mx-auto px-6">
         <span className="font-mono text-[11px] font-bold tracking-[2.5px] text-primary uppercase block mb-4">Start Here</span>
         <h2 className="font-serif text-[32px] lg:text-[40px] font-extrabold text-white leading-tight tracking-tight mb-10">
-          Free AI Audit.
+          AI Capacity Audit.
         </h2>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-16 items-start">
@@ -255,9 +255,9 @@ export function AuditSection() {
 /* ── How We Work Section ── */
 export function HowWeWorkSection() {
   const steps = [
-    { n: "01", t: "Free AI Audit", d: "90–120 minute working session. We map your workflow, find every leak, and demo LEX live." },
+    { n: "01", t: "AI Capacity Audit", d: "90–120 minute working session. We map your workflow, find every leak, and demo LEX live." },
     { n: "02", t: "LegalEdge", d: "If it's a fit — LEX deploys on your real matters, your real data." },
-    { n: "03", t: "30-Day Free Trial", d: "Your real matters. Your real data. No credit card." },
+    { n: "03", t: "30-Day Trial", d: "Your real matters. Your real data. No credit card." },
   ]
 
   return (
@@ -373,7 +373,7 @@ export function FinalCtaSection() {
         </h2>
 
         <p className="text-[18px] text-white/60 leading-relaxed max-w-[580px] mx-auto mb-12">
-          Free audit. Written report with your numbers. Right product recommended. No pitch unless it fits.
+          $497 if we find $10K+/month. $0 if we don't. Written report with your numbers. No pitch unless it fits.
         </p>
 
         <Link
@@ -383,7 +383,7 @@ export function FinalCtaSection() {
           Book Your AI Audit <span>→</span>
         </Link>
 
-        <p className="text-[13px] text-white/35 mt-5">Florida real estate law firms · LegalEdge · No credit card</p>
+        <p className="text-[13px] text-white/35 mt-5">Florida real estate litigation firms · HOA foreclosure & eviction</p>
       </FadeUp>
     </section>
   )
