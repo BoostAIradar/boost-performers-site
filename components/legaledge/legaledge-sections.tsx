@@ -81,7 +81,7 @@ const faqs = [
   { q: "What if LEX gets something wrong?", a: "Nothing sends, files, or logs without your approval. Human always in the loop — built into the architecture, not a setting you can turn off. LEX prepares. You make the call." },
   { q: "Does LEX know Florida HOA foreclosure law?", a: "Yes. LEX knows what an ATP is, what a CMO is, what a DLE is. It knows the 46-day Florida lien window. It knows §720.3085 for HOA and §718.116 for condo. Built from how HOA foreclosure actually works in Florida." },
   { q: "How long does it take to set up?", a: "Most firms are live within 48 hours of the audit call. We connect LEX to your existing Clio environment, map your most common matter type, and run the first batch together." },
-  { q: "What is the free trial?", a: "30 days. Your real matters. Your real data. LEX running on your actual practice. No credit card required. You only decide after you've seen LEX working in your firm." },
+  { q: "What is the trial?", a: "30 days. Your real matters. Your real data. LEX running on your actual practice. You only decide after you've seen LEX working in your firm." },
 ]
 
 /* ── Intersection Observer Hook ── */
@@ -154,7 +154,7 @@ export function LegalEdgeHeroSection() {
         <div className="relative z-10">
           <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/25 rounded-full px-3.5 py-1.5 mb-7">
             <span className="w-1.5 h-1.5 rounded-full bg-green-500" />
-            <span className="font-mono text-[11px] font-bold tracking-[1.5px] text-primary uppercase">Live · Miami, FL · Beta</span>
+            <span className="font-mono text-[11px] font-bold tracking-[1.5px] text-primary uppercase">Live · Florida Real Estate Litigation</span>
           </div>
 
           <h1 className="font-serif text-[28px] md:text-[38px] lg:text-[46px] font-extrabold leading-[1.1] tracking-tight text-white mb-6">
@@ -172,7 +172,7 @@ export function LegalEdgeHeroSection() {
             href="/contact?type=audit"
             className="bg-primary text-white px-10 py-4 text-base font-bold rounded-lg hover:bg-primary-hover transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_30px_rgba(255,107,0,0.3)] inline-flex items-center gap-2"
           >
-            Book A Free AI Audit <span>→</span>
+            Book Your AI Audit <span>→</span>
           </Link>
             <Link
               href="/contact"
@@ -257,7 +257,7 @@ export function LegalEdgeLeakingSection() {
           Most firms don't see it.
         </h2>
         <p className="text-[16px] text-[#0B1A2B]/60 leading-relaxed max-w-[540px] mb-12">
-          Based on our first beta audit with a Florida real estate law firm — these are the leaks we found.
+          Based on our first client engagement with a Florida real estate law firm — these are the leaks we found.
         </p>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-7">
@@ -355,7 +355,7 @@ export function ProblemSolutionSection() {
             </p>
 
             <div className="bg-white/[0.03] border border-white/8 rounded-xl p-6">
-              <div className="font-mono text-[11px] font-bold tracking-[1px] text-primary uppercase mb-4">Results from first beta firm</div>
+              <div className="font-mono text-[11px] font-bold tracking-[1px] text-primary uppercase mb-4">Results from first client</div>
               {fixes.map((f) => (
                 <div key={f} className="flex gap-2.5 text-[14px] text-white/75 mb-2.5 last:mb-0 items-start">
                   <span className="text-green-500 font-bold shrink-0">→</span>
@@ -611,7 +611,7 @@ export function LegalEdgeGuySection() {
             href="/contact?type=audit"
             className="bg-primary text-white px-10 py-4 text-base font-bold rounded-lg hover:bg-primary-hover transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_30px_rgba(255,107,0,0.3)] inline-flex items-center gap-2"
           >
-            Book A Free AI Audit <span>→</span>
+            Book Your AI Audit <span>→</span>
           </Link>
           </div>
         </div>
@@ -693,7 +693,7 @@ export function StartFreeSection() {
           href="/contact"
           className="bg-primary text-white px-10 py-4 text-base font-bold rounded-lg hover:bg-primary-hover transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_30px_rgba(255,107,0,0.3)] inline-flex items-center gap-2"
         >
-          Book A Free AI Audit <span>→</span>
+          Book Your AI Audit <span>→</span>
         </Link>
 
         <p className="text-[12.5px] text-white/35 mt-5">

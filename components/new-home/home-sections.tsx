@@ -77,7 +77,7 @@ export function NewHeroSection() {
             href="/contact?type=audit"
             className="bg-primary text-white px-10 py-4 text-base font-bold rounded-lg hover:bg-primary-hover transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_30px_rgba(255,107,0,0.3)] inline-flex items-center gap-2"
           >
-            Book A Free AI Audit <span>→</span>
+            Book Your AI Audit <span>→</span>
           </Link>
           <Link
             href="/contact"
@@ -214,9 +214,9 @@ export function AuditSection() {
               href="/contact?type=audit"
               className="bg-primary text-white px-10 py-4 text-base font-bold rounded-lg hover:bg-primary-hover transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_30px_rgba(255,107,0,0.3)] inline-flex items-center gap-2"
             >
-              Book A Free AI Audit <span>→</span>
+              Book Your AI Audit <span>→</span>
             </Link>
-            <p className="text-[12px] text-white/35 mt-3">Free · 90–120 minutes · Written report in 48hrs · No credit card</p>
+            <p className="text-[12px] text-white/35 mt-3">$497 audit · Find $10K+/month or pay nothing</p>
           </div>
 
           {/* Right - Visual */}
@@ -243,7 +243,7 @@ export function AuditSection() {
               ))}
             </div>
             <p className="text-[12px] text-white/35 italic mt-3 text-center">
-              Results from first beta firm · Your audit will show your numbers
+              Results from first client · Your audit will show your numbers
             </p>
           </div>
         </div>
@@ -347,7 +347,7 @@ export function GuySection() {
               href="/contact?type=audit"
               className="bg-primary text-white px-10 py-4 text-base font-bold rounded-lg hover:bg-primary-hover transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_30px_rgba(255,107,0,0.3)] inline-flex items-center gap-2"
             >
-              Book A Free AI Audit <span>→</span>
+              Book Your AI Audit <span>→</span>
             </Link>
           </div>
         </div>
@@ -380,7 +380,7 @@ export function FinalCtaSection() {
           href="/contact"
           className="bg-primary text-white px-10 py-4 text-base font-bold rounded-lg hover:bg-primary-hover transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_30px_rgba(255,107,0,0.3)] inline-flex items-center gap-2"
         >
-          Book A Free AI Audit <span>→</span>
+          Book Your AI Audit <span>→</span>
         </Link>
 
         <p className="text-[13px] text-white/35 mt-5">Florida real estate law firms · LegalEdge · No credit card</p>

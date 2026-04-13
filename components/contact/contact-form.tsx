@@ -252,10 +252,10 @@ export function ContactFormSection() {
               </select>
             </div>
 
-            {/* Biggest Challenge */}
+            {/* Workflow Pain */}
             <div className="mb-5">
               <label className="block text-sm font-semibold text-[#1B2B3A] mb-2">
-                Biggest Challenge <span className="text-primary">*</span>
+                What's your biggest workflow pain right now? <span className="text-primary">*</span>
               </label>
               <textarea
                 className={`${inputClass} resize-y min-h-[120px]`}
@@ -332,7 +332,7 @@ export function ContactFormSection() {
               </h3>
               <div className="flex flex-col gap-5">
                 {[
-                  { q: "Is the discovery call really free?", a: "Yes. 15 minutes. No pitch. No obligation. Just clarity." },
+                  { q: "What does the audit cost?", a: "$497 — but only if we find $10K+/month in recoverable capacity. If we can't find it, you pay nothing." },
                   { q: "How fast will you respond?", a: "Within 24 hours on business days. Usually faster." },
                   { q: "What if I'm not sure what I need?", a: "That's exactly what the call is for. We'll help you identify priorities." },
                 ].map((item) => (

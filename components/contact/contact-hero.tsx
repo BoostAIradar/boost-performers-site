@@ -121,11 +121,10 @@ export function ContactHero() {
 
       <div className="relative z-10 text-center px-6 lg:px-10 py-16 lg:py-20 max-w-[800px] mx-auto">
         <h1 className="font-serif text-4xl sm:text-5xl lg:text-[52px] font-extrabold text-foreground leading-[1.1] mb-5">
-          <span className="gradient-text">{"Let's Talk."}</span>{" "}
-          No Pitch. Just Clarity.
+          <span className="gradient-text">{"Let's find what your firm is losing."}</span>
         </h1>
         <p className="text-lg text-foreground/45 mb-7 leading-relaxed">
-          In 15 minutes, we{"'"}ll identify your biggest growth constraint.
+          One 15-minute call to see if the audit is right for your firm. Then 90 minutes to find your numbers.
         </p>
         <div className="flex gap-7 justify-center flex-wrap">
           {[

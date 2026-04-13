@@ -73,7 +73,7 @@ export function SiteNav() {
             href="/contact?type=audit"
             className="bg-primary text-white px-6 py-2.5 text-sm font-semibold rounded-md hover:bg-primary-hover transition-all hover:-translate-y-0.5"
           >
-            Book A Free AI Audit
+            Book Your AI Audit
           </a>
         </div>
 
@@ -108,7 +108,7 @@ export function SiteNav() {
             href="/contact?type=audit"
             className="bg-primary text-white px-8 py-3.5 text-base font-semibold rounded-md mt-4 text-center"
           >
-            Book A Free AI Audit
+            Book Your AI Audit
           </a>
         </div>
       )}

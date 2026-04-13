@@ -3,21 +3,20 @@ import { SiteNav } from "@/components/site-nav"
 import { SharedFooter } from "@/components/shared-footer"
 import {
   AuditHeroSection,
-  IsThisYouSection,
-  LeakingSection,
+  GuaranteeBlock,
+  ProofSection,
+  ZeroEffortBlock,
   HowItWorksSection,
-  StatsBar,
-  ReportSection,
-  CaseStudySection,
+  WhoThisIsForSection,
   AuditGuySection,
   FaqSection,
   AuditFinalCtaSection,
 } from "@/components/new-audit/audit-sections"
 
 export const metadata: Metadata = {
-  title: "Free AI Audit | Boost Performers",
+  title: "AI Audit | Boost Performers",
   description:
-    "See exactly where your Florida real estate litigation firm is leaking time and money. Free 90-120 minute working session with a written AI Capacity & Profit Report.",
+    "I'll find $10,000+/month your Florida real estate litigation firm is losing to manual work. 90-minute working session. Written report in 48 hours. $497 with a $10K guarantee.",
 }
 
 export default function AIAuditPage() {
@@ -25,15 +24,14 @@ export default function AIAuditPage() {
     <main>
       <SiteNav />
       <AuditHeroSection />
-      <IsThisYouSection />
-      <LeakingSection />
+      <GuaranteeBlock />
+      <ProofSection />
+      <ZeroEffortBlock />
       <HowItWorksSection />
-      <StatsBar />
-      <ReportSection />
-      <CaseStudySection />
+      <WhoThisIsForSection />
       <AuditGuySection />
-      <FaqSection />
       <AuditFinalCtaSection />
+      <FaqSection />
       <SharedFooter />
     </main>
   )
